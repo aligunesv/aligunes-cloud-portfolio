@@ -1,10 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
-  <title>My Cloud Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Gunes | Cloud Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #232f3e;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            backdrop-filter: blur(4px);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+        
+        h1 { 
+            margin-bottom: 0.5rem; 
+            color: #ff9900; 
+        }
+
+        p { 
+            font-size: 1.2rem; 
+            opacity: 0.9; 
+        }
+
+        .status {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 5px 15px;
+            background: #4caf50;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-  <h1>Hello AWS 🚀 I'am Ali Gunes</h1>
-  <p>This site is hosted on S3 + CloudFront</p>
+    <div class="container">
+        <h1>Ali Gunes</h1>
+        <p>Cloud Portfolio & Platform Engineering</p>
+        <hr style="border: 0.5px solid #ff9900; width: 50%;">
+        <p>This site is securely hosted on <strong>S3 + CloudFront</strong>[cite: 5, 30].</p>
+        <div class="status">CI/CD Pipeline Active</div>
+    </div>
 </body>
 </html>
